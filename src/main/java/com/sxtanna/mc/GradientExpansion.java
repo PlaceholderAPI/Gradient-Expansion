@@ -55,7 +55,7 @@ public final class GradientExpansion extends PlaceholderExpansion implements Ver
 	}
 
 	@Override
-	public String onRequest(final OfflinePlayer p, final String params)
+	public String onRequest(final OfflinePlayer player, final String params)
 	{
 		final String[] parts = params.split("_");
 		if (parts.length != 3)
